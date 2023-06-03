@@ -36,20 +36,21 @@ nav a :hover{
     margin: 0;
     padding-top: 40vh;
 }
-.who-am-i{
+.who-am-i, .what-am-i-looking-for, .what-do-i-do{
+    margin: 0;
     animation: fade-in 1s ease-in-out;
+
+}
+.who-am-i{
     background-color: #6E4BE5;
-    margin-bottom: 0;
 }
 .what-do-i-do{
-    animation: fade-in 1s ease-in-out;
     background-color: #4BE5BB;
-    margin-bottom: 0;
+    color: black;
 }
 .what-am-i-looking-for{
-    animation: fade-in 1s ease-in-out;
     background-color: #E54BC2;
-    margin-bottom: 0;
+    color: black;
 }
 .header .typewriter{
     width: 12ch;
