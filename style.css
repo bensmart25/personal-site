@@ -39,6 +39,17 @@ nav a :hover{
 .who-am-i{
     animation: fade-in 1s ease-in-out;
     background-color: #6E4BE5;
+    margin-bottom: 0;
+}
+.what-do-i-do{
+    animation: fade-in 1s ease-in-out;
+    background-color: #4BE5BB;
+    margin-bottom: 0;
+}
+.what-am-i-looking-for{
+    animation: fade-in 1s ease-in-out;
+    background-color: #E54BC2;
+    margin-bottom: 0;
 }
 .header .typewriter{
     width: 12ch;
