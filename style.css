@@ -23,9 +23,23 @@ nav li{
     text-align: left;
     padding: 1.5em;
 }
-nav a :hover{
+nav li :hover{
     cursor: pointer;
-    animation: underline 3s ease-in-out;
+    border-radius: 5px;
+    animation: highlight 0.5s ease-in-out;
+    padding: 0.75em;
+    border: 1px solid #000;
+    background-color: #E54BC2;
+}
+@keyframes highlight{
+    from{
+        border: none;
+        background-color: transparent;
+    }
+    to{
+        border: 1px solid #000;
+        background-color: #E54BC2;
+    }
 }
 .selected{
     font-weight: bolder;
